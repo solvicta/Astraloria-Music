@@ -1,0 +1,11 @@
+{
+  "priority": 0,
+  "layer": "underscore",
+  "sound_event": "astraloria_music:music.pause",
+  "condition": {
+    "type": "maestro:screen",
+    "kind": "pause"
+  }
+}
+
+

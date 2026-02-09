@@ -1,0 +1,48 @@
+{
+  "music.title": {
+    "sounds": [
+      {
+        "name": "astraloria_music:TITLE_Peritune_Augury",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:TITLE_Peritune_Elysium",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:TITLE_Peritune_Limpid_Water",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:TITLE_Peritune_Tir_sonas",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:TITLE_Peritune_World_OP",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:TITLE_Peritune_World_OP2",
+        "stream": true
+      }
+	  
+    ]
+  },
+  "music.rain": {
+    "sounds": [
+      {
+        "name": "astraloria_music:RAIN_Sketch_Forest",
+        "stream": true
+      }
+    ]
+  },
+  "music.pause": {
+    "sounds": [
+      {
+        "name": "astraloria_music:PAUSE_Glass_Gardens_HannahPugel",
+        "stream": true
+      }
+    ]
+  }   
+}
+

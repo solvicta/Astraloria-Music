@@ -1,0 +1,11 @@
+{
+  "priority": 0,
+  "layer": "underscore",
+  "sound_event": "astraloria_music:music.title",
+  "condition": {
+    "type": "maestro:screen",
+    "kind": "title"
+  }
+}
+
+
