@@ -1,0 +1,11 @@
+{
+  "priority": 1000,
+  "layer": "underscore",
+  "sound_event": "astraloria_music:music.death",
+  "condition": {
+    "type": "maestro:screen",
+    "class_path": "net.minecraft.client.gui.screens.DeathScreen"
+  }
+}
+
+

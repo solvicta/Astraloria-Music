@@ -1,0 +1,21 @@
+{
+  "priority": 300,
+  "layer": "underscore",
+  "cooldown_seconds": 180,
+  "sound_event": "astraloria_music:music.magical_generic",
+  "condition": {
+    "type": "maestro:any_of",
+    "terms": [
+      {
+        "type": "maestro:biome",
+        "values": [
+			"biomeswevegone:forgotten_forest",
+			"biomeswevegone:enchanted_tangle",
+			"biomeswevegone:weeping_witch_forest",
+			"regions_unexplored:blackwood_taiga"
+		]
+      }
+    ]
+  }
+}
+

@@ -24,25 +24,252 @@
 	  {
         "name": "astraloria_music:TITLE_Peritune_World_OP2",
         "stream": true
-      }
-	  
-    ]
-  },
-  "music.rain": {
-    "sounds": [
-      {
-        "name": "astraloria_music:RAIN_Sketch_Forest",
-        "stream": true
-      }
+      }	  
     ]
   },
   "music.pause": {
     "sounds": [
       {
-        "name": "astraloria_music:PAUSE_Glass_Gardens_HannahPugel",
+        "name": "astraloria_music:PAUSE_BlayneNorrick_OptionsMenu",
         "stream": true
       }
     ]
-  }   
+  },
+  "music.underwater": {
+    "sounds": [
+      {
+        "name": "astraloria_music:UNDERWATER_Peritune_Deep_Sea",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:UNDERWATER_Peritune_Mystic_Tides",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:UNDERWATER_PerituneMaterial_Cerulean_Relics",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:UNDERWATER_PerituneMaterial_Quiet_Ocean",
+        "stream": true
+      }
+    ]
+  },
+  "music.rain_day": {
+    "sounds": [
+      {
+        "name": "astraloria_music:RAIN_Peritune_RainDrop",
+        "stream": true
+      }
+    ]
+  },
+  "music.rain_night": {
+    "sounds": [
+      {
+        "name": "astraloria_music:RAIN_SNOW_NIGHT_BlayneNorrick_RainyDayInTheCity",
+        "stream": true
+      }
+    ]
+  },
+  "music.snow_day": {
+    "sounds": [
+      {
+        "name": "astraloria_music:SNOW_DAY_BlayneNorrick_TheComfortOfHome",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:SNOW_MAGICAL_BlayneNorrick_MysteriousPlaces",
+        "stream": true
+      }
+    ]
+  },
+  "music.snow_night": {
+    "sounds": [
+      {
+        "name": "astraloria_music:SNOW_NIGHT_BlayneNorrick_TrailingDown",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:SNOW_NIGHT_BlayneNorrick_LateNights",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:RAIN_SNOW_NIGHT_BlayneNorrick_RainyDayInTheCity",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:SNOW_MAGICAL_BlayneNorrick_MysteriousPlaces",
+        "stream": true
+      }
+    ]
+  },
+  "music.plains_day": {
+    "sounds": [
+      {
+        "name": "astraloria_music:PLAINS_DAY_Peritune_Deep_Woods3",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:PLAINS_DAY_BlayneNorrick_UpbeatPop",
+        "stream": true
+      }
+    ]
+  },
+  "music.plains_night": {
+    "sounds": [
+      {
+        "name": "astraloria_music:PLAINS_DAY_Peritune_Deep_Woods3",
+        "stream": true
+      }
+    ]
+  },
+  "music.forest_day": {
+    "sounds": [
+      {
+        "name": "astraloria_music:FOREST_DAY_Peritune_Deep_Woods3",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:FOREST_DAY_Peritune_Sketch_Forest",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:FOREST_DAY_BlayneNorrick_WalkThroughTheWoods",
+        "stream": true
+      }
+    ]
+  },
+  "music.forest_night": {
+    "sounds": [
+      {
+        "name": "astraloria_music:FOREST_NIGHT_Peritune_Deep_Woods2",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:FOREST_NIGHT_Peritune_Forest_Sage",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:FOREST_NIGHT_Peritune_Glimmering_Woods",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:FOREST_NIGHT_Peritune_Lost_in_the_Woods",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:FOREST_NIGHT_Peritune_Nocturnal_Bloom",
+        "stream": true
+      }
+    ]
+  },
+  "music.marsh_day": {
+    "sounds": [
+      {
+        "name": "astraloria_music:FOREST_DAY_Peritune_Sketch_Forest",
+        "stream": true
+      }
+    ]
+  },  
+  "music.mountain_day": {
+    "sounds": [
+      {
+        "name": "astraloria_music:MOUNTAIN_DAY_Peritune_Shizima4",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:MOUNTAIN_DAY_Peritune_Oboro",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:MOUNTAIN_DAY_Peritune_OverWorld_Folk",
+        "stream": true
+      }
+    ]
+  },
+  "music.desert_day": {
+    "sounds": [
+      {
+        "name": "astraloria_music:MOUNTAIN_DAY_Peritune_Shizima4",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:MOUNTAIN_DAY_Peritune_Oboro",
+        "stream": true
+      }
+    ]
+  },
+  "music.desert_night": {
+    "sounds": [
+      {
+        "name": "astraloria_music:DESERT_NIGHT_BlayneNorrick_InReferenceOfJazz",
+        "stream": true
+      }
+    ]
+  },
+  "music.beach_day": {
+    "sounds": [
+      {
+        "name": "astraloria_music:BEACH_DAY_Peritune_Sea_Breeze",
+        "stream": true
+      }
+    ]
+  },
+  "music.beach_night": {
+    "sounds": [
+      {
+        "name": "astraloria_music:BEACH_NIGHT_BlayneNorrick_Mysticism",
+        "stream": true
+      }
+    ]
+  },
+  "music.day_generic": {
+    "sounds": [
+      {
+        "name": "astraloria_music:DAY_GENERIC_BlayneNorrick_Memories",
+        "stream": true
+      }
+    ]
+  },
+  "music.night_generic": {
+    "sounds": [
+      {
+        "name": "astraloria_music:NIGHT_Peritune_Shizima",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:NIGHT_Peritune_Shizima2",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:NIGHT_Peritune_Shizima3",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:NIGHT_Peritune_Shizima4",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:NIGHT_Peritune_Oboro2",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:NIGHT_BlayneNorrick_WishfulDreams",
+        "stream": true
+      }
+    ]
+  },
+  "music.magical_generic": {
+    "sounds": [
+      {
+        "name": "astraloria_music:MAGICAL_BlayneNorrick_Springtime",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:SNOW_MAGICAL_BlayneNorrick_MysteriousPlaces",
+        "stream": true
+      }
+    ]
+  }  
 }
 

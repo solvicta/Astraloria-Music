@@ -1,5 +1,5 @@
 {
-  "priority": 0,
+  "priority": 200,
   "layer": "underscore",
   "sound_event": "astraloria_music:music.rain",
   "cooldown_seconds": 120,

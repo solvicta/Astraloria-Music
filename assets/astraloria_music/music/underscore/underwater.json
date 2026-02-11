@@ -1,0 +1,19 @@
+{
+  "priority": 500,
+  "layer": "underscore",
+  "sound_event": "astraloria_music:music.underwater",
+  "cooldown_seconds": 120,
+  "condition": {
+    "type": "maestro:all_of",
+    "terms": [
+      {
+        "type": "maestro:dimension",
+        "dimension": "minecraft:overworld"
+      },
+      {
+        "type": "maestro:underwater",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "priority": 0,
+  "layer": "underscore",
+  "cooldown_seconds": 180,
+  "sound_event": "astraloria_music:music.night_generic",
+  "condition": {
+    "type": "maestro:all_of",
+    "terms": [
+      {
+        "type": "maestro:biome_tag",
+        "tag_key": "minecraft:is_overworld"
+      },
+	  {
+		"type": "maestro:day_cycle",
+		"is_night": true
+	  }
+    ]
+  }
+}

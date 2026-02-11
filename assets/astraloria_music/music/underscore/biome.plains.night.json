@@ -1,0 +1,19 @@
+{
+  "priority": 100,
+  "layer": "underscore",
+  "cooldown_seconds": 180,
+  "sound_event": "astraloria_music:music.plains_night",
+  "condition": {
+    "type": "maestro:all_of",
+    "terms": [
+      {
+        "type": "maestro:biome_tag",
+        "tag_key": "forge:is_plains"
+      },
+	  {
+		"type": "maestro:day_cycle",
+		"is_night": true
+	  }
+    ]
+  }
+}
