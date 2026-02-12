@@ -6,7 +6,7 @@ https://modrinth.com/mod/maestro-music
 This is a music resource pack that requires Obscuria's Maestro mod to function. Designed to go with my upcoming modpack, Astraloria, this music pack features mostly ambient and melodic tracks that would fit into an adventure-oriented pack. 
 
 ----
-I highly recommend installing CreativeMD's AmbientSounds alongside this; there are some pauses added between some of the music tracks to allow you to enjoy the sound of the environment as you explore.
+I highly recommend installing CreativeMD's AmbientSounds alongside this; there will eventually be some pauses added between some of the music tracks to allow you to enjoy the sound of the environment as you explore.
 
 https://www.curseforge.com/minecraft/mc-mods/ambientsounds
 
@@ -23,20 +23,35 @@ To do so, locate the Maestro config file (config/obscuria/maestro-client.toml) a
 
 ----
 Current Features:
+
 Biome tag specific music
+
 Day/night specific music
+
 Underwater music
+
 Weather music
+
 Title Screen music
-Sailing & riding music
+
+
 
 
 Future:
+
 Other Dimensions
+
 Short jingles for special events
+
 Boss-specific music
+
 Entity-specific music
+
 Structure-specific music
+
+Sailing & riding music
+
+Breaks between songs
 
 
 
