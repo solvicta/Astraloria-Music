@@ -34,6 +34,8 @@ Weather music
 
 Title Screen music
 
+Generic fallback music if there are no matching tags
+
 
 
 
@@ -53,6 +55,8 @@ Structure-specific music
 Sailing & riding music
 
 Breaks between songs
+
+Track normalization
 
 
 
