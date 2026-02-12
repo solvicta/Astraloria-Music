@@ -1,19 +1,22 @@
 {
   "priority": 100,
   "layer": "underscore",
-  "cooldown_seconds": 180,
   "sound_event": "astraloria_music:music.desert_night",
   "condition": {
     "type": "maestro:all_of",
     "terms": [
       {
         "type": "maestro:biome_tag",
-        "tag_key": "minecraft:is_desert"
+        "values": [
+          "forge:is_desert",
+		  "minecraft:is_badlands"
+        ]
       },
-	  {
-		"type": "maestro:day_cycle",
-		"is_night": true
-	  }
+      {
+        "type": "maestro:time",
+        "above": 12000,
+        "below": 24000
+      }
     ]
   }
 }

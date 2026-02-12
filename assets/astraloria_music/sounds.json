@@ -5,26 +5,26 @@
         "name": "astraloria_music:TITLE_Peritune_Augury",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:TITLE_Peritune_Elysium",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:TITLE_Peritune_Limpid_Water",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:TITLE_Peritune_Tir_sonas",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:TITLE_Peritune_World_OP",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:TITLE_Peritune_World_OP2",
         "stream": true
-      }	  
+      }
     ]
   },
   "music.pause": {
@@ -35,21 +35,45 @@
       }
     ]
   },
+  "music.jingle_sunrise": {
+    "sounds": [
+      {
+        "name": "astraloria_music:SUNRISE_BlayneNorrick_ANewDayRises",
+        "stream": true
+      }
+    ]
+  },
+  "music.boat_day": {
+    "sounds": [
+      {
+        "name": "astraloria_music:BOAT_NIGHT_SolasComposer_SeaOfStars",
+        "stream": true
+      }
+    ]
+  },
+  "music.boat_night": {
+    "sounds": [
+      {
+        "name": "astraloria_music:BOAT_NIGHT_SolasComposer_SeaOfStars",
+        "stream": true
+      }
+    ]
+  },
   "music.underwater": {
     "sounds": [
       {
         "name": "astraloria_music:UNDERWATER_Peritune_Deep_Sea",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:UNDERWATER_Peritune_Mystic_Tides",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:UNDERWATER_PerituneMaterial_Cerulean_Relics",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:UNDERWATER_PerituneMaterial_Quiet_Ocean",
         "stream": true
       }
@@ -60,6 +84,14 @@
       {
         "name": "astraloria_music:RAIN_Peritune_RainDrop",
         "stream": true
+      },
+      {
+        "name": "astraloria_music:FOREST_DAY_BlayneNorrick_WalkThroughTheWoods",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:RAIN_DAY_Peritune_Limpid_Water_melodyoff",
+        "stream": true
       }
     ]
   },
@@ -67,6 +99,18 @@
     "sounds": [
       {
         "name": "astraloria_music:RAIN_SNOW_NIGHT_BlayneNorrick_RainyDayInTheCity",
+        "stream": true
+      },
+      {
+        "name": "astraloria_music:FOREST_DAY_BlayneNorrick_WalkThroughTheWoods",
+        "stream": true
+      },
+      {
+        "name": "astraloria_music:NIGHT_SolasComposer_Stardust",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:RAIN_SNOW_NIGHT_Peritune_Sceal_Realta",
         "stream": true
       }
     ]
@@ -77,8 +121,12 @@
         "name": "astraloria_music:SNOW_DAY_BlayneNorrick_TheComfortOfHome",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:SNOW_MAGICAL_BlayneNorrick_MysteriousPlaces",
+        "stream": true
+      },
+      {
+        "name": "astraloria_music:NIGHT_SolasComposer_Stardust",
         "stream": true
       }
     ]
@@ -89,16 +137,20 @@
         "name": "astraloria_music:SNOW_NIGHT_BlayneNorrick_TrailingDown",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:SNOW_NIGHT_BlayneNorrick_LateNights",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:RAIN_SNOW_NIGHT_BlayneNorrick_RainyDayInTheCity",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:SNOW_MAGICAL_BlayneNorrick_MysteriousPlaces",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:RAIN_SNOW_NIGHT_Peritune_Sceal_Realta",
         "stream": true
       }
     ]
@@ -109,8 +161,24 @@
         "name": "astraloria_music:PLAINS_DAY_Peritune_Deep_Woods3",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:PLAINS_DAY_BlayneNorrick_UpbeatPop",
+        "stream": true
+      },
+      {
+        "name": "astraloria_music:PLAINS_DAY_Peritune_Harvest2",
+        "stream": true
+      },
+      {
+        "name": "astraloria_music:DAY_Peritune_Verdure3",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:DAY_Peritune_Minamo2",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:DAY_PerituneMaterial_Minamo",
         "stream": true
       }
     ]
@@ -118,7 +186,19 @@
   "music.plains_night": {
     "sounds": [
       {
-        "name": "astraloria_music:PLAINS_DAY_Peritune_Deep_Woods3",
+        "name": "astraloria_music:PLAINS_NIGHT_Peritune_Endless_Woods",
+        "stream": true
+      },
+      {
+        "name": "astraloria_music:PLAINS_NIGHT_SolasComposer_PeacefulMeadows",
+        "stream": true
+      },
+      {
+        "name": "astraloria_music:NIGHT_SolasComposer_Stardust",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:NIGHT_Peritune_MoonForest",
         "stream": true
       }
     ]
@@ -126,15 +206,27 @@
   "music.forest_day": {
     "sounds": [
       {
+        "name": "astraloria_music:DAY_Peritune_Verdure3",
+        "stream": true
+      },
+      {
         "name": "astraloria_music:FOREST_DAY_Peritune_Deep_Woods3",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:FOREST_DAY_Peritune_Sketch_Forest",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:FOREST_DAY_BlayneNorrick_WalkThroughTheWoods",
+        "stream": true
+      },
+      {
+        "name": "astraloria_music:FOREST_DAY_SolasComposer_ForestTemple",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:DAY_Peritune_Minamo2",
         "stream": true
       }
     ]
@@ -145,44 +237,60 @@
         "name": "astraloria_music:FOREST_NIGHT_Peritune_Deep_Woods2",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:FOREST_NIGHT_Peritune_Forest_Sage",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:FOREST_NIGHT_Peritune_Glimmering_Woods",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:FOREST_NIGHT_Peritune_Lost_in_the_Woods",
         "stream": true
       },
-	  {
+      {
+        "name": "astraloria_music:PLAINS_NIGHT_SolasComposer_PeacefulMeadows",
+        "stream": true
+      },
+      {
         "name": "astraloria_music:FOREST_NIGHT_Peritune_Nocturnal_Bloom",
+        "stream": true
+      },
+      {
+        "name": "astraloria_music:FOREST_NIGHT_SolasComposer_MistOfTheForest",
+        "stream": true
+      },
+      {
+        "name": "astraloria_music:NIGHT_SolasComposer_Stardust",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:NIGHT_Peritune_MoonForest",
         "stream": true
       }
     ]
   },
-  "music.marsh_day": {
-    "sounds": [
-      {
-        "name": "astraloria_music:FOREST_DAY_Peritune_Sketch_Forest",
-        "stream": true
-      }
-    ]
-  },  
   "music.mountain_day": {
     "sounds": [
       {
         "name": "astraloria_music:MOUNTAIN_DAY_Peritune_Shizima4",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:MOUNTAIN_DAY_Peritune_Oboro",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:MOUNTAIN_DAY_Peritune_OverWorld_Folk",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:DAY_Peritune_Minamo2",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:DAY_PerituneMaterial_Minamo",
         "stream": true
       }
     ]
@@ -190,11 +298,11 @@
   "music.desert_day": {
     "sounds": [
       {
-        "name": "astraloria_music:MOUNTAIN_DAY_Peritune_Shizima4",
+        "name": "astraloria_music:DESERT_DAY_Peritune_Clay_and_Spice",
         "stream": true
       },
-	  {
-        "name": "astraloria_music:MOUNTAIN_DAY_Peritune_Oboro",
+      {
+        "name": "astraloria_music:DESERT_DAY_Peritune_Bazaar",
         "stream": true
       }
     ]
@@ -203,6 +311,22 @@
     "sounds": [
       {
         "name": "astraloria_music:DESERT_NIGHT_BlayneNorrick_InReferenceOfJazz",
+        "stream": true
+      },
+      {
+        "name": "astraloria_music:DESERT_NIGHT_Peritune_Deep_Valley2",
+        "stream": true
+      }
+    ]
+  },
+  "music.savanna_day": {
+    "sounds": [
+      {
+        "name": "astraloria_music:SAVANNA_Peritune_Resort3",
+        "stream": true
+      },
+      {
+        "name": "astraloria_music:SAVANNA_Peritune_Lost_place5",
         "stream": true
       }
     ]
@@ -223,10 +347,31 @@
       }
     ]
   },
+  "music.snowy_day": {
+    "sounds": [
+      {
+        "name": "astraloria_music:SNOWY_DAY_Peritune_Firmament_Calm",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:DAY_PerituneMaterial_Minamo",
+        "stream": true
+      }
+	  
+    ]
+  },
   "music.day_generic": {
     "sounds": [
       {
         "name": "astraloria_music:DAY_GENERIC_BlayneNorrick_Memories",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:DAY_PerituneMaterial_Minamo",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:DAY_Peritune_Minamo2",
         "stream": true
       }
     ]
@@ -237,24 +382,28 @@
         "name": "astraloria_music:NIGHT_Peritune_Shizima",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:NIGHT_Peritune_Shizima2",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:NIGHT_Peritune_Shizima3",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:NIGHT_Peritune_Shizima4",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:NIGHT_Peritune_Oboro2",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:NIGHT_BlayneNorrick_WishfulDreams",
+        "stream": true
+      },
+	  {
+        "name": "astraloria_music:NIGHT_Peritune_MoonForest",
         "stream": true
       }
     ]
@@ -265,11 +414,10 @@
         "name": "astraloria_music:MAGICAL_BlayneNorrick_Springtime",
         "stream": true
       },
-	  {
+      {
         "name": "astraloria_music:SNOW_MAGICAL_BlayneNorrick_MysteriousPlaces",
         "stream": true
       }
     ]
-  }  
+  }
 }
-

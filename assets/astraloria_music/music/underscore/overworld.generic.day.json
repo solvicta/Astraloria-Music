@@ -1,19 +1,21 @@
 {
   "priority": 0,
   "layer": "underscore",
-  "cooldown_seconds": 180,
   "sound_event": "astraloria_music:music.day_generic",
   "condition": {
     "type": "maestro:all_of",
     "terms": [
       {
-        "type": "maestro:biome_tag",
-        "tag_key": "minecraft:is_overworld"
+        "type": "maestro:dimension",
+        "values": [
+			"minecraft:overworld"
+        ]
       },
-	  {
-		"type": "maestro:day_cycle",
-		"is_day": true
-	  }
+      {
+        "type": "maestro:time",
+        "above": 1000,
+        "below": 12000
+      }
     ]
   }
 }

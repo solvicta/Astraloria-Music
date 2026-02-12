@@ -1,0 +1,21 @@
+{
+  "priority": 0,
+  "layer": "encounter",
+  "sound_event": "astraloria_music:music.boat_night",
+  "condition": {
+    "type": "maestro:all_of",
+    "terms": [
+      {
+        "type": "maestro:vehicle",
+        "values": [
+          "minecraft:boat"
+        ]
+      },
+      {
+        "type": "maestro:time",
+        "above": 13000,
+        "below": 24000
+      }
+    ]
+  }
+}

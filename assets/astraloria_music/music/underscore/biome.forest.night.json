@@ -1,19 +1,21 @@
 {
   "priority": 100,
   "layer": "underscore",
-  "cooldown_seconds": 180,
   "sound_event": "astraloria_music:music.forest_night",
   "condition": {
     "type": "maestro:all_of",
     "terms": [
       {
         "type": "maestro:biome_tag",
-        "tag_key": "minecraft:is_forest"
+        "values": [
+          "minecraft:is_forest"
+        ]
       },
-	  {
-		"type": "maestro:day_cycle",
-		"is_night": true
-	  }
+      {
+        "type": "maestro:time",
+        "above": 13000,
+        "below": 24000
+      }
     ]
   }
 }

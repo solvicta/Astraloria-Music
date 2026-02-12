@@ -1,19 +1,21 @@
 {
   "priority": 100,
   "layer": "underscore",
-  "cooldown_seconds": 180,
   "sound_event": "astraloria_music:music.mountain_day",
   "condition": {
     "type": "maestro:all_of",
     "terms": [
       {
         "type": "maestro:biome_tag",
-        "tag_key": "minecraft:is_mountain"
+        "values": [
+			"minecraft:is_mountain"
+        ]
       },
-	  {
-		"type": "maestro:day_cycle",
-		"is_day": true
-	  }
+      {
+        "type": "maestro:time",
+        "above": 1000,
+        "below": 12000
+      }
     ]
   }
 }

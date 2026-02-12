@@ -1,0 +1,30 @@
+{
+  "priority": 200,
+  "layer": "underscore",
+  "sound_event": "astraloria_music:music.rain_night",
+  "condition": {
+    "type": "maestro:all_of",
+    "terms": [
+      {
+        "type": "maestro:dimension",
+        "values": [
+			"minecraft:overworld"
+		]
+      },
+      {
+        "type": "maestro:height",
+        "above": 60
+      },
+      {
+        "type": "maestro:weather",
+        "is_raining": true
+      },
+	  {
+        "type": "maestro:time",
+        "above": 12000,
+        "below": 24000
+      }
+    ]
+  }
+}
+

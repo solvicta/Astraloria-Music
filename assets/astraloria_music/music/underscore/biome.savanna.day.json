@@ -1,0 +1,21 @@
+{
+  "priority": 100,
+  "layer": "underscore",
+  "sound_event": "astraloria_music:music.savanna_day",
+  "condition": {
+    "type": "maestro:all_of",
+    "terms": [
+      {
+        "type": "maestro:biome_tag",
+        "values": [
+			"minecraft:is_savanna"
+        ]
+      },
+      {
+        "type": "maestro:time",
+        "above": 1000,
+        "below": 12000
+      }
+    ]
+  }
+}

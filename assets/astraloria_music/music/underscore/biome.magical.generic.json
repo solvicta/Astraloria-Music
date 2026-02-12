@@ -1,7 +1,6 @@
 {
   "priority": 300,
   "layer": "underscore",
-  "cooldown_seconds": 180,
   "sound_event": "astraloria_music:music.magical_generic",
   "condition": {
     "type": "maestro:any_of",

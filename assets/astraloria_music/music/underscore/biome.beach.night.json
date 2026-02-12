@@ -1,0 +1,21 @@
+{
+  "priority": 100,
+  "layer": "underscore",
+  "sound_event": "astraloria_music:music.beach_night",
+  "condition": {
+    "type": "maestro:all_of",
+    "terms": [
+      {
+        "type": "maestro:biome_tag",
+        "values": [
+          "minecraft:is_beach"
+        ]
+      },
+      {
+        "type": "maestro:time",
+        "above": 12000,
+        "below": 24000
+      }
+    ]
+  }
+}
