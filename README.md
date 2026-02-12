@@ -3,7 +3,7 @@ Requires Maestro:
 https://www.curseforge.com/minecraft/mc-mods/maestro
 https://modrinth.com/mod/maestro-music
 ----
-This is a music resource pack that requires Obscuria's Maestro mod to function. Designed to go with my upcoming modpack, Astraloria, this music pack features mostly ambient and lightly melodic tracks that would fit into an adventure-oriented pack. 
+This is a music resource pack that requires Obscuria's Maestro mod to function. Designed to go with my upcoming modpack, Astraloria, this music pack features mostly ambient and melodic tracks that would fit into an adventure-oriented pack. 
 
 ----
 I highly recommend installing AmbientSounds 6 alongside this; there are some pauses added between some of the music tracks to allow you to enjoy the sound of the environment as you explore.
