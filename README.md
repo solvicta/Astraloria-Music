@@ -13,6 +13,7 @@ https://www.curseforge.com/minecraft/mc-mods/ambientsounds
 https://modrinth.com/mod/ambientsounds
 
 
+I have a custom ambience pack coming up for that mod as well, not quite finished though :3
 
 ----
 I also recommend disabling vanilla music while using this pack, as most of the tracks do not quite fit the same theme. 
